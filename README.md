@@ -38,7 +38,7 @@ This project was developed as part of our coursework assignment at CodingTemple,
 
 ### Installation
 1. Clone or Download the Project:
-     git clone [<repository-url>]      (https://github.com/Astor2386/FakeStore-app.git)
+     git clone (https://github.com/Astor2386/FakeStore-app.git)
      cd fakestore-app
    
    - Sometimes it doesn't require it, but just in case, ensure you’re in the project directory (`fakestore-app`).
@@ -78,7 +78,7 @@ fakestore-app/
 ## API Details
 
 - FakeStoreAPI: This project uses the FakeStoreAPI (`https://fakestoreapi.com/`) for product data.
-- Important Note: FakeStoreAPI is a mock API and does not persist changes. When you add, edit, or delete a product, the API returns a success response, but the changes are not saved.
+- Important Note: FakeStoreAPI is a mock API and does not keep changes. When you add, edit, or delete a product, the API returns a success response, but the changes are not saved.
 -  The product list (`/products`) always shows the original products provided by the API.
 - Image Handling: The Add and Edit Product forms include a placeholder image (`https://via.placeholder.com/150`) in the API requests because FakeStoreAPI requires an `image` field for `POST` and `PUT` requests.
   Since image uploads are not part of the project requirements, a placeholder is used. **(It will cause the whole app to go to an error page if this is not done correctly.)**
